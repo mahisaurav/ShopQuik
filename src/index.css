@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+ul {
+  cursor: pointer;
+}
+
+.col {
+  @apply hover:text-red-600 cursor-pointer transition-colors duration-300;
+}
